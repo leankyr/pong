@@ -171,7 +171,7 @@ function love.draw()
     love.graphics.rectangle('fill', VIRTUAL_WIDTH - 10, player2Y, 5, 20)
 
     -- render ball (center)
-    love.graphics.rectangle('fill', ballX, ballY, 4, 4)
+    love.graphics.rectangle('fill', ballX, ballY, 4, 4) --last two parameters are the size in pixels
 
     -- end rendering at virtual resolution
     push:apply('end')
